@@ -1,0 +1,3 @@
+[submodule "bmo-ipmi-firmware"]
+	path = bmo-ipmi-firmware
+	url = https://github.com/neo-th/bmo-ipmi-firmware.git
