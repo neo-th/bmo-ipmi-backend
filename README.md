@@ -21,5 +21,7 @@ And that’s it.
 
 Currently, the project is hardcoded to use `/dev/ttyACM0` as the serial port. I’m working on an update to automatically find the correct serial port without needing it hardcoded. I might also experiment with using the Raspberry Pi’s GPIO pins directly - bypassing the need for USB communication with the Arduino.
 
+Here is the arduino firmware [repo](https://github.com/neo-th/bmo-ipmi-firmware?tab=readme-ov-file)
+
 
 **Note**: This project is still a work in progress (WIP) and will be updated frequently. Stay tuned!
