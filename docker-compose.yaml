@@ -1,0 +1,15 @@
+version: '3.9'
+
+services:
+  orchestrator:
+    build: ./backend
+    container_name: bmo-ipmi
+    restart: unless-stopped
+    platform: linux/arm64
+    ports:
+      - "8080:8080"
+    devices:
+      - "/dev/ttyACM0:/dev/ttyACM0"
+    environment:
+      - SERIAL_DEVICE=/dev/ttyACM0
+    privileged: true
